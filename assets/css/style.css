@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    background-color:white;
+    background-image: url("../images/symphony.png");
+    height: 100%;
+    width: 100%;
+    border-top: 5px solid gray;
+    color: #777777;
+}
+*  {
+    box-sizing:border-box;
+}
+
+p {
+    line-height: 1.5%
+}
+h2 {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-top:0px;
+    border-bottom: 2px solid gray;
+} 
+#masthead {
+    position: fixed;
+    top:0;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+  
+  #logo {
+    float: left;
+    width: 350px;
+    height: 77px;
+    margin-left:300px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right:300px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+.main {
+    margin-top: 100px;
+    margin-left:300px;
+    margin-right:300px;
+    padding:15px;
+    border-bottom:#4aaaa5 2px;
+    text-align: left;
+    border: 1px solid #dddddd;
+    background-color:white;
+    overflow:auto;
+}
+p {
+    line-height: 1.5;
+}
+.image {
+    padding:10px;
+    width:15%;
+    height:15%;
+    float:left;
+}
+#textboxid {
+        height:200px;
+        font-size:14pt;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-bottom:30px;
+    width: 80%;
+    height:20%;
+    text-align: center;
+    color: white;
+    background-color:#4aaaa5;
+    z-index:2;
+    position: absolute;
+    bottom:0%;
+}
+.projects img {
+    width:80%;
+    height:80%;
+    z-index:1;
+}
+.projects {
+    float:left;
+    width: 40%;
+    position:relative;
+    margin: 10px 10px 10px 10px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+input {
+    width:100%;
+}
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 0;
+    bottom:0%;
+    width: 100%;
+    padding: 10px;
+    background-color: #666666;
+    color: white;
+    border-top: solid 10px #4aaaa5;
+    z-index:3;
+}
+@media only screen and (max-width: 980px) {
+body {
+    margin:0;
+    padding:0;
+} 
+#masthead {
+    margin:0px;
+    padding:0px;
+}
+#logo {
+    float:left;
+    padding:0;
+    margin-left:40px;
+    display:inline;
+    height:90px;
+}
+nav{
+    float:right;
+    margin-right:100px;
+    margin-bottom: 30px;
+}
+.main {
+    margin-top:120px;
+    margin-left:40px;
+    margin-bottom:300px;
+    width:700px;
+}
+input {
+    margin:5px;
+    border: 1px solid #ccc;
+}
+}
+@media only screen and (max-width: 768px) {
+nav {
+    float:right;
+    margin-right:100px;
+    margin-bottom: 40px;
+}
+.main {
+    max-width: 640px;
+    margin-top:120px;
+    margin-left:20px;
+    margin-bottom:80px;
+    margin-right:40px;
+}
+}   
+@media only screen and (max-width: 640px) {
+body {
+    max-width:640px;
+}
+#masthead {
+    top:0;
+    width:100%;
+    margin:0px;
+    padding:0px;
+ }
+#logo {
+     float:none;
+     display:block;
+     margin-left:0px;
+     margin-right:0px;
+     padding:0;
+     width:100%;
+     height:90px;
+     text-align:center;
+ }
+ nav{
+     display:block;
+     margin-bottom: 20px;
+     margin-top:20px;
+     margin-right:0px;
+     margin-left:0px;
+     width:100%;
+     text-align:center;
+ }
+nav a {
+    text-align:center;
+ }
+.main {
+    float:none;
+    max-width:600px;
+    right:0;
+    bottom:0;
+    margin-top:200px;
+    margin-right:auto;
+    margin-left:auto;
+ }
+.image {
+  width:100%;   
+    
+ }
+ input {
+     margin:5px;
+     border: 1px solid #ccc;
+ }
+ footer {
+     width:100%;
+ }
+}
