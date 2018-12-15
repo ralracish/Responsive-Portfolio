@@ -13,7 +13,6 @@ body {
 *  {
     box-sizing:border-box;
 }
-
 p {
     line-height: 1.5%
 }
@@ -38,8 +37,7 @@ h2 {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
   }
-  
-  #logo {
+#logo {
     float: left;
     width: 350px;
     height: 77px;
@@ -53,20 +51,20 @@ h2 {
     text-decoration: none;
     background: #4aaaa5;
   }
-  #logo:hover,
+#logo:hover,
   input[type=submit]:hover {
-  background: #5e7f7e;
+    background: #5e7f7e;
 }
-  nav a:hover {
+nav a:hover {
     color: #5e7f7e;
 }
-  nav {
+nav {
     float: right;
     margin-top: 25px;
     margin-right:300px;
-  }
+}
   
-  nav a {
+nav a {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
@@ -74,11 +72,10 @@ h2 {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
-  }
-  
-  nav a:first-child {
+}
+nav a:first-child {
     border-left: 0 none;
-  }
+}
 .main {
     margin-top: 100px;
     margin-left:300px;
@@ -174,7 +171,7 @@ body {
     display:inline;
     height:90px;
 }
-nav{
+nav {
     float:right;
     margin-right:100px;
     margin-bottom: 30px;
@@ -215,27 +212,27 @@ body {
     padding:0px;
  }
 #logo {
-     float:none;
-     display:block;
-     margin-left:0px;
-     margin-right:0px;
-     padding:0;
-     width:100%;
-     height:90px;
-     text-align:center;
- }
- nav{
-     display:block;
-     margin-bottom: 20px;
-     margin-top:20px;
-     margin-right:0px;
-     margin-left:0px;
-     width:100%;
-     text-align:center;
+    float:none;
+    display:block;
+    margin-left:0px;
+    margin-right:0px;
+    padding:0;
+    width:100%;
+    height:90px;
+    text-align:center;
+}
+nav {
+    display:block;
+    margin-bottom: 20px;
+    margin-top:20px;
+    margin-right:0px;
+    margin-left:0px;
+    width:100%;
+    text-align:center;
  }
 nav a {
     text-align:center;
- }
+}
 .main {
     float:none;
     max-width:600px;
@@ -244,16 +241,15 @@ nav a {
     margin-top:200px;
     margin-right:auto;
     margin-left:auto;
- }
+}
 .image {
   width:100%;   
-    
- }
- input {
+}
+input {
      margin:5px;
      border: 1px solid #ccc;
- }
- footer {
+}
+footer {
      width:100%;
- }
+}
 }
