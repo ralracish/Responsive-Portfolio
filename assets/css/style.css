@@ -53,7 +53,13 @@ h2 {
     text-decoration: none;
     background: #4aaaa5;
   }
-  
+  #logo:hover,
+  input[type=submit]:hover {
+  background: #5e7f7e;
+}
+  nav a:hover {
+    color: #5e7f7e;
+}
   nav {
     float: right;
     margin-top: 25px;
